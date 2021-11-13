@@ -107,6 +107,164 @@ const TopMenuBar = () => {
             </div>
         </div>
         {/* <!-- top-header-end --> */}
+
+        {/* <!-- navbar starts  --> */}
+        <nav className="navbar navbar-expand-lg navbar-light sticky-top" id="navbar">
+            <div className="container">
+                <a className="navbar-brand" href="<?= base_url(); ?>"> <img src="<?= base_url(); ?>/public/assets/images/logo2.png" alt="" className="img-fluid"/></a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+
+                <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="<?= base_url();?>">Home</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="<?= base_url();?>/about">About</a>
+                        </li>
+
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="<?= base_url();?>/onlinecourses" id="online-courses-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Online Courses
+                            </a>
+                            <ul className="dropdown-menu" aria-labelledby="online-courses-dropdown">
+
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/spelling-and-basic-english-course">Spelling And Basic English Course</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/english-grammar-course">English Grammar Course</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/spoken-english-course">Spoken English Course</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/translation-course">Translation Course</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/cursive-handwriting-course">Cursive Handwriting Course</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/objective-english-course">Objective English Course</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/jobs-skills-training-course">Jobs Skills Training Course</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/essay-writing-course">Essay Writing Course</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/build-your-vocabulary-course">Build Your Vocabulary Course</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/precis-writing-course">Precis Writing Course</a></li>
+                            </ul>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="<?= base_url();?>/onlinecourses" id="online-courses-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Test Series
+                            </a>
+                            <ul className="dropdown-menu" aria-labelledby="online-courses-dropdown">
+
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/spelling-and-basic-english-course">Spelling And Basic English Course</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/english-grammar-course">English Grammar Course</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/spoken-english-course">Spoken English Course</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/translation-course">Translation Course</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/cursive-handwriting-course">Cursive Handwriting Course</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/objective-english-course">Objective English Course</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/jobs-skills-training-course">Jobs Skills Training Course</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/essay-writing-course">Essay Writing Course</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/build-your-vocabulary-course">Build Your Vocabulary Course</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/precis-writing-course">Precis Writing Course</a></li>
+                            </ul>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="<?= base_url();?>/onlinecourses" id="online-courses-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Academic English
+                            </a>
+                            <ul className="dropdown-menu" aria-labelledby="online-courses-dropdown">
+
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/spelling-and-basic-english-course">Class-12-English NCERT Solutions</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/english-grammar-course">Class-11-English NCERT Solutions</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/spoken-english-course">Class-10-English NCERT Solutions</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/translation-course">Class-9-English NCERT Solutions</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/cursive-handwriting-course">Class-8-English NCERT Solutions</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/objective-english-course">Class-7-English NCERT Solutions</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/jobs-skills-training-course">Class-6-English NCERT Solutions</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/essay-writing-course">Class-5-English NCERT Solutions</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/build-your-vocabulary-course">Class-4-English NCERT Solutions</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/precis-writing-course">Class-3-English NCERT Solutions</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/build-your-vocabulary-course">Class-2-English NCERT Solutions</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/onlinecourses/precis-writing-course">Class-1-English NCERT Solutions</a></li>
+                            </ul>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="<?= base_url(); ?>/services">Services</a>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="blogs-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Blogs
+                            </a>
+                            <ul className="dropdown-menu" aria-labelledby="blogs-dropdown">
+
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/blogs/english-grammar">English Grammar</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/blogs/spoken-english">Spoken English</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/blogs/parts-of-speech">Parts Of Speech</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/blogs/vocabulary">Vocabulary</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/blogs/translation">Translation</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/blogs/objective-english">Objective English</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/blogs/interview">Interview</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/blogs/essays">Essays</a></li>
+
+                            </ul>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="<?= base_url(); ?>/eBooks">eBooks</a>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="more-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                More
+                            </a>
+                            <ul className="dropdown-menu" aria-labelledby="more-dropdown">
+
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/more/english-charts">English Charts</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/more/students-doubts">Students' Doubts</a></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><a className="dropdown-item" href="<?= base_url(); ?>/more/gallery">Gallery</a></li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                    {/* <!-- <form className="search d-flex">
+                        <input className="form-control  ms-2" type="search" placeholder="Search" aria-label="Search">
+                        <button className="btn search-btn" type="submit">Search</button>
+                    </form> --> */}
+                </div>
+            </div>
+        </nav>
+
+        {/* <!-- navbar ends  --> */}
         </div>
     )
 }
