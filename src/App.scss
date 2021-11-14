@@ -142,3 +142,36 @@ $tertiary-color: #813588;
       @include button-color;
   }
 }
+
+#footer {
+  ul {
+      color: $white-color;
+  }                                                                                             
+  h2 {
+      color: $secondary-color;
+      font-size: 18px;
+  }
+  address {
+      color: $white-color;
+  }
+  a {
+      text-decoration: none;
+      color: $white-color;
+      &:hover {
+          color: $secondary-color;
+      }
+
+  }
+
+}
+
+#welcome {
+  h2 {
+      color: $primary-color;
+
+  }
+  p {
+      color: $black-color;
+  }
+  @include book-reading-icon($primary-color, $primary-color, $white-color);
+}

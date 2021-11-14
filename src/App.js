@@ -5,6 +5,7 @@ import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import SpellingAndBasicEnglishCourse from "./Components/OnlineCourses/SpellingAndBasicEnglishCourse";
 import EnglishGrammarCourse from "./Components/OnlineCourses/EnglishGrammarCourse";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
           <Route path="/online-courses/spelling-and-basic-english-course" exact component={SpellingAndBasicEnglishCourse}></Route>
           <Route path="/online-courses/english-grammar-course" exact component={EnglishGrammarCourse}></Route>
         </Switch>
+        <Footer>
+
+        </Footer>
       </Router>
     </div>
   );
